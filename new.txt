@@ -1,0 +1,1 @@
+in the first commit there are some mistakes from my side on the yaml file like i have used run as rum and some space in jobe name , now i am going for the second commit and see if it works or not chances are that it is going to work

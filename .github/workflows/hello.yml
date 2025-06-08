@@ -4,9 +4,9 @@ on:
     push:
 
 jobs:
-    hello world:
-      runs-on: ubantu-latest
+    hello-world:
+      runs-on: ubuntu-latest
       steps:
               -name: "print hello world"
-               rum: echo "hello world"
+               run: echo "hello world"
 
