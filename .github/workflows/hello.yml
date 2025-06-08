@@ -6,6 +6,7 @@ on:
             branches:
                     - main
                     - developer
+                    - vishal
 
 jobs:
     hello-world:
