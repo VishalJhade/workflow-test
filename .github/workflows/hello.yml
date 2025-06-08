@@ -1,11 +1,17 @@
 name: "first workflow"
     
 on: 
-  push:
+
+    push:
+            branches:
+                    - main
+                    - master
 
 jobs:
-  hello-world:
-    runs-on: ubuntu-latest
-    steps:
-      - name: "print hello world"
-        run: echo "hello world"
+    hello-world:
+      runs-on: ubuntu-latest
+      steps:
+              - name: "print hello world"
+                run: echo "hello world"
+
+
