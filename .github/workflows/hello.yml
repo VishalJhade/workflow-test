@@ -1,6 +1,7 @@
 name: "first workflow"
     
 on: 
+
     push:
             branches:
                     - main
@@ -12,4 +13,5 @@ jobs:
       steps:
               - name: "print hello world"
                 run: echo "hello world"
+
 
