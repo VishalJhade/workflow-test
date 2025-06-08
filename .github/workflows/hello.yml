@@ -2,6 +2,9 @@ name: "first workflow"
     
 on: 
     push:
+            branches:
+                    - main:
+                    - master:
 
 jobs:
     hello-world:
