@@ -13,12 +13,14 @@ on:
 jobs:     # here both jobs will run if even one event is triggerd 
 
         on-push:   # job 1
+                if: github.event_name == 'push'
                 runs-on: ubuntu-latest
                 steps: # step 1
                        - name: "echo running on master/test push"
                          run: echo "running on master/test push"
 
         on-pull_request:  # job 2
+                 if: github.event_name == 'pull_request'
                  runs-on: ubuntu-latest
                  steps: # step 1
                        - name: "echo pull-request"
