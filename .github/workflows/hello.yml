@@ -1,0 +1,12 @@
+name: "first workflow"
+    
+on: 
+    push:
+
+jobs:
+    hello world:
+      runs-on: ubantu-latest
+      steps:
+              -name: "print hello world"
+               rum: echo "hello world"
+
