@@ -4,6 +4,7 @@ on:
              branches:
                      - master
                      - test
+                     - main
 
         pull_request: # Event: whenever a pull request is made to the repository
              branches:
