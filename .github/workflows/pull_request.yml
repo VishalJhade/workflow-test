@@ -7,6 +7,6 @@ on:
 jobs:
   pull:
     runs-on: ubuntu-latest
-        steps:
-          - name: "when the pull request is made"
-             run: echo "hello the pull request is made"
+    steps:
+       - name: "when the pull request is made"
+       run: echo "hello the pull request is made"
