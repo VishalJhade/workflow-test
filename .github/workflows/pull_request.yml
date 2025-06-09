@@ -1,0 +1,12 @@
+name: "workflow for pull request"
+on:
+	pull_request:
+		branches:
+			- master
+
+jobs:
+     pull:
+         runs-on: ubuntu-latest
+         steps:
+		- name: "when the pull request is made"
+		  run: echo "hello the pull request is made"
